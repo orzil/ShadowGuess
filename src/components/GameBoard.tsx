@@ -23,7 +23,8 @@ const categoryCards: ActiveCategoryCard[] = [
   { id: "countries", labelKey: "countries" },
   { id: "celebrities", labelKey: "celebrities" },
   { id: "animals", labelKey: "animals" },
-  { id: "landmarks", labelKey: "landmarks", comingSoon: true },
+  { id: "landmarks", labelKey: "landmarks" },
+  { id: "food", labelKey: "food" },
   { id: "objects", labelKey: "objects", comingSoon: true }
 ];
 
@@ -174,10 +175,10 @@ export default function GameBoard() {
         >
           {isHe ? "EN" : "HE"}
         </button>
-        <h1 style={{ margin: 0, fontSize: "1.8rem", color: "#fef08a", textShadow: "0 2px 14px rgba(245, 158, 11, 0.45)" }}>
+        <h1 style={{ margin: 0, fontSize: "2.8rem", fontWeight: 800, letterSpacing: "-0.02em", color: "#fef08a", textShadow: "0 2px 20px rgba(245, 158, 11, 0.5), 0 0 40px rgba(245, 158, 11, 0.2)" }}>
           {t("title", lang)}
         </h1>
-        <p style={{ margin: "4px 0 0", fontSize: "0.8rem", opacity: 0.8, color: "#bfdbfe", lineHeight: 1.4 }}>
+        <p style={{ margin: "8px 0 0", fontSize: "1.05rem", fontWeight: 500, color: "#bfdbfe", lineHeight: 1.5, whiteSpace: "pre-line" }}>
           {t("subtitle", lang)}
         </p>
       </header>

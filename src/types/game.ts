@@ -1,6 +1,6 @@
-export type CategoryId = "countries" | "celebrities" | "animals";
+export type CategoryId = "countries" | "celebrities" | "animals" | "landmarks" | "food";
 
-export type FutureCategoryId = "landmarks" | "objects";
+export type FutureCategoryId = "objects";
 
 export type UnlockableCategoryId = CategoryId | FutureCategoryId;
 

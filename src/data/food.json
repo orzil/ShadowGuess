@@ -1,0 +1,512 @@
+[
+  {
+    "id": "food-pizza",
+    "category": "food",
+    "answer": "Pizza",
+    "options": [
+      "Pizza",
+      "Hamburger",
+      "Sushi",
+      "Croissant"
+    ],
+    "silhouetteImage": "/assets/food/food-pizza-silhouette.png",
+    "originalImage": "/assets/food/food-pizza-original.png",
+    "hintMask": "/assets/food/food-pizza-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pizza",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-sushi",
+    "category": "food",
+    "answer": "Sushi",
+    "options": [
+      "Sushi",
+      "Pizza",
+      "Hamburger",
+      "Croissant"
+    ],
+    "silhouetteImage": "/assets/food/food-sushi-silhouette.png",
+    "originalImage": "/assets/food/food-sushi-original.png",
+    "hintMask": "/assets/food/food-sushi-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sushi",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-hot-dog",
+    "category": "food",
+    "answer": "Hot Dog",
+    "options": [
+      "Hot Dog",
+      "Pizza",
+      "Hamburger",
+      "Sushi"
+    ],
+    "silhouetteImage": "/assets/food/food-hot-dog-silhouette.png",
+    "originalImage": "/assets/food/food-hot-dog-original.png",
+    "hintMask": "/assets/food/food-hot-dog-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hot_dog",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-banana",
+    "category": "food",
+    "answer": "Banana",
+    "options": [
+      "Banana",
+      "Pizza",
+      "Hamburger",
+      "Sushi"
+    ],
+    "silhouetteImage": "/assets/food/food-banana-silhouette.png",
+    "originalImage": "/assets/food/food-banana-original.png",
+    "hintMask": "/assets/food/food-banana-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Banana",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-apple",
+    "category": "food",
+    "answer": "Apple",
+    "options": [
+      "Apple",
+      "Pizza",
+      "Hamburger",
+      "Sushi"
+    ],
+    "silhouetteImage": "/assets/food/food-apple-silhouette.png",
+    "originalImage": "/assets/food/food-apple-original.png",
+    "hintMask": "/assets/food/food-apple-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Apple",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-avocado",
+    "category": "food",
+    "answer": "Avocado",
+    "options": [
+      "Avocado",
+      "Pizza",
+      "Hamburger",
+      "Sushi"
+    ],
+    "silhouetteImage": "/assets/food/food-avocado-silhouette.png",
+    "originalImage": "/assets/food/food-avocado-original.png",
+    "hintMask": "/assets/food/food-avocado-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Avocado",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-broccoli",
+    "category": "food",
+    "answer": "Broccoli",
+    "options": [
+      "Broccoli",
+      "Pizza",
+      "Hamburger",
+      "Sushi"
+    ],
+    "silhouetteImage": "/assets/food/food-broccoli-silhouette.png",
+    "originalImage": "/assets/food/food-broccoli-original.png",
+    "hintMask": "/assets/food/food-broccoli-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Broccoli",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-tomato",
+    "category": "food",
+    "answer": "Tomato",
+    "options": [
+      "Tomato",
+      "Pizza",
+      "Hamburger",
+      "Sushi"
+    ],
+    "silhouetteImage": "/assets/food/food-tomato-silhouette.png",
+    "originalImage": "/assets/food/food-tomato-original.png",
+    "hintMask": "/assets/food/food-tomato-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tomato",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-lemon",
+    "category": "food",
+    "answer": "Lemon",
+    "options": [
+      "Lemon",
+      "Pizza",
+      "Hamburger",
+      "Sushi"
+    ],
+    "silhouetteImage": "/assets/food/food-lemon-silhouette.png",
+    "originalImage": "/assets/food/food-lemon-original.png",
+    "hintMask": "/assets/food/food-lemon-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lemon",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-cherry",
+    "category": "food",
+    "answer": "Cherry",
+    "options": [
+      "Cherry",
+      "Pizza",
+      "Hamburger",
+      "Sushi"
+    ],
+    "silhouetteImage": "/assets/food/food-cherry-silhouette.png",
+    "originalImage": "/assets/food/food-cherry-original.png",
+    "hintMask": "/assets/food/food-cherry-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cherry",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-cheese",
+    "category": "food",
+    "answer": "Cheese",
+    "options": [
+      "Cheese",
+      "Pizza",
+      "Hamburger",
+      "Sushi"
+    ],
+    "silhouetteImage": "/assets/food/food-cheese-silhouette.png",
+    "originalImage": "/assets/food/food-cheese-original.png",
+    "hintMask": "/assets/food/food-cheese-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cheese",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-garlic",
+    "category": "food",
+    "answer": "Garlic",
+    "options": [
+      "Garlic",
+      "Pizza",
+      "Hamburger",
+      "Sushi"
+    ],
+    "silhouetteImage": "/assets/food/food-garlic-silhouette.png",
+    "originalImage": "/assets/food/food-garlic-original.png",
+    "hintMask": "/assets/food/food-garlic-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Garlic",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-pepper",
+    "category": "food",
+    "answer": "Pepper",
+    "options": [
+      "Pepper",
+      "Pizza",
+      "Hamburger",
+      "Sushi"
+    ],
+    "silhouetteImage": "/assets/food/food-pepper-silhouette.png",
+    "originalImage": "/assets/food/food-pepper-original.png",
+    "hintMask": "/assets/food/food-pepper-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bell_pepper",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-cabbage",
+    "category": "food",
+    "answer": "Cabbage",
+    "options": [
+      "Cabbage",
+      "Pizza",
+      "Sushi",
+      "Hot Dog"
+    ],
+    "silhouetteImage": "/assets/food/food-cabbage-silhouette.png",
+    "originalImage": "/assets/food/food-cabbage-original.png",
+    "hintMask": "/assets/food/food-cabbage-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cabbage",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-pumpkin",
+    "category": "food",
+    "answer": "Pumpkin",
+    "options": [
+      "Pumpkin",
+      "Pizza",
+      "Sushi",
+      "Hot Dog"
+    ],
+    "silhouetteImage": "/assets/food/food-pumpkin-silhouette.png",
+    "originalImage": "/assets/food/food-pumpkin-original.png",
+    "hintMask": "/assets/food/food-pumpkin-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pumpkin",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-radish",
+    "category": "food",
+    "answer": "Radish",
+    "options": [
+      "Radish",
+      "Pizza",
+      "Sushi",
+      "Hot Dog"
+    ],
+    "silhouetteImage": "/assets/food/food-radish-silhouette.png",
+    "originalImage": "/assets/food/food-radish-original.png",
+    "hintMask": "/assets/food/food-radish-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Radish",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-potato",
+    "category": "food",
+    "answer": "Potato",
+    "options": [
+      "Potato",
+      "Pizza",
+      "Sushi",
+      "Hot Dog"
+    ],
+    "silhouetteImage": "/assets/food/food-potato-silhouette.png",
+    "originalImage": "/assets/food/food-potato-original.png",
+    "hintMask": "/assets/food/food-potato-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Potato",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-olive",
+    "category": "food",
+    "answer": "Olive",
+    "options": [
+      "Olive",
+      "Pizza",
+      "Sushi",
+      "Hot Dog"
+    ],
+    "silhouetteImage": "/assets/food/food-olive-silhouette.png",
+    "originalImage": "/assets/food/food-olive-original.png",
+    "hintMask": "/assets/food/food-olive-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Olive",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-sunflower-seed",
+    "category": "food",
+    "answer": "Sunflower Seed",
+    "options": [
+      "Sunflower Seed",
+      "Pizza",
+      "Sushi",
+      "Hot Dog"
+    ],
+    "silhouetteImage": "/assets/food/food-sunflower-seed-silhouette.png",
+    "originalImage": "/assets/food/food-sunflower-seed-original.png",
+    "hintMask": "/assets/food/food-sunflower-seed-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sunflower_seed",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-turnip",
+    "category": "food",
+    "answer": "Turnip",
+    "options": [
+      "Turnip",
+      "Pizza",
+      "Sushi",
+      "Hot Dog"
+    ],
+    "silhouetteImage": "/assets/food/food-turnip-silhouette.png",
+    "originalImage": "/assets/food/food-turnip-original.png",
+    "hintMask": "/assets/food/food-turnip-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Turnip",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-cucumber",
+    "category": "food",
+    "answer": "Cucumber",
+    "options": [
+      "Cucumber",
+      "Pizza",
+      "Sushi",
+      "Hot Dog"
+    ],
+    "silhouetteImage": "/assets/food/food-cucumber-silhouette.png",
+    "originalImage": "/assets/food/food-cucumber-original.png",
+    "hintMask": "/assets/food/food-cucumber-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cucumber",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-spinach",
+    "category": "food",
+    "answer": "Spinach",
+    "options": [
+      "Spinach",
+      "Pizza",
+      "Sushi",
+      "Hot Dog"
+    ],
+    "silhouetteImage": "/assets/food/food-spinach-silhouette.png",
+    "originalImage": "/assets/food/food-spinach-original.png",
+    "hintMask": "/assets/food/food-spinach-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Spinach",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-basil",
+    "category": "food",
+    "answer": "Basil",
+    "options": [
+      "Basil",
+      "Pizza",
+      "Sushi",
+      "Hot Dog"
+    ],
+    "silhouetteImage": "/assets/food/food-basil-silhouette.png",
+    "originalImage": "/assets/food/food-basil-original.png",
+    "hintMask": "/assets/food/food-basil-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Basil",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-rosemary",
+    "category": "food",
+    "answer": "Rosemary",
+    "options": [
+      "Rosemary",
+      "Pizza",
+      "Sushi",
+      "Hot Dog"
+    ],
+    "silhouetteImage": "/assets/food/food-rosemary-silhouette.png",
+    "originalImage": "/assets/food/food-rosemary-original.png",
+    "hintMask": "/assets/food/food-rosemary-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rosemary",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-leek",
+    "category": "food",
+    "answer": "Leek",
+    "options": [
+      "Leek",
+      "Pizza",
+      "Sushi",
+      "Hot Dog"
+    ],
+    "silhouetteImage": "/assets/food/food-leek-silhouette.png",
+    "originalImage": "/assets/food/food-leek-original.png",
+    "hintMask": "/assets/food/food-leek-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Leek",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-apricot",
+    "category": "food",
+    "answer": "Apricot",
+    "options": [
+      "Apricot",
+      "Pizza",
+      "Sushi",
+      "Hot Dog"
+    ],
+    "silhouetteImage": "/assets/food/food-apricot-silhouette.png",
+    "originalImage": "/assets/food/food-apricot-original.png",
+    "hintMask": "/assets/food/food-apricot-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Apricot",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-blueberry",
+    "category": "food",
+    "answer": "Blueberry",
+    "options": [
+      "Blueberry",
+      "Pizza",
+      "Sushi",
+      "Hot Dog"
+    ],
+    "silhouetteImage": "/assets/food/food-blueberry-silhouette.png",
+    "originalImage": "/assets/food/food-blueberry-original.png",
+    "hintMask": "/assets/food/food-blueberry-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Blueberry",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-lime",
+    "category": "food",
+    "answer": "Lime",
+    "options": [
+      "Lime",
+      "Pizza",
+      "Sushi",
+      "Hot Dog"
+    ],
+    "silhouetteImage": "/assets/food/food-lime-silhouette.png",
+    "originalImage": "/assets/food/food-lime-original.png",
+    "hintMask": "/assets/food/food-lime-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lime_(fruit)",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-chili-pepper",
+    "category": "food",
+    "answer": "Chili Pepper",
+    "options": [
+      "Chili Pepper",
+      "Pizza",
+      "Sushi",
+      "Hot Dog"
+    ],
+    "silhouetteImage": "/assets/food/food-chili-pepper-silhouette.png",
+    "originalImage": "/assets/food/food-chili-pepper-original.png",
+    "hintMask": "/assets/food/food-chili-pepper-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chili_pepper",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "food-dragonfruit",
+    "category": "food",
+    "answer": "Dragonfruit",
+    "options": [
+      "Dragonfruit",
+      "Pizza",
+      "Sushi",
+      "Hot Dog"
+    ],
+    "silhouetteImage": "/assets/food/food-dragonfruit-silhouette.png",
+    "originalImage": "/assets/food/food-dragonfruit-original.png",
+    "hintMask": "/assets/food/food-dragonfruit-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pitaya",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  }
+]

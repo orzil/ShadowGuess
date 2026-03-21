@@ -1,10 +1,9 @@
 import type { PlayerProfile, UnlockableCategoryId } from "@/types/game";
 
 const PROFILE_KEY = "shadowguess.profile.v1";
-const BASE_UNLOCKS: UnlockableCategoryId[] = ["countries", "celebrities", "animals"];
+const BASE_UNLOCKS: UnlockableCategoryId[] = ["countries", "celebrities", "animals", "landmarks", "food"];
 
 const unlockTable: Array<{ level: number; category: UnlockableCategoryId }> = [
-  { level: 2, category: "landmarks" },
   { level: 3, category: "objects" }
 ];
 

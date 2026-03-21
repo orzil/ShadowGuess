@@ -1,6 +1,8 @@
 import countries from "@/data/countries.json";
 import celebrities from "@/data/celebrities.json";
 import animals from "@/data/animals.json";
+import landmarks from "@/data/landmarks.json";
+import food from "@/data/food.json";
 import type { CategoryId, ChoiceQuestion } from "@/types/game";
 
 const ROUND_SECONDS = 15;
@@ -8,7 +10,9 @@ const ROUND_SECONDS = 15;
 const byCategory: Record<CategoryId, ChoiceQuestion[]> = {
   countries: countries as ChoiceQuestion[],
   celebrities: celebrities as ChoiceQuestion[],
-  animals: animals as ChoiceQuestion[]
+  animals: animals as ChoiceQuestion[],
+  landmarks: landmarks as ChoiceQuestion[],
+  food: food as ChoiceQuestion[]
 };
 
 export function getRoundSeconds(): number {

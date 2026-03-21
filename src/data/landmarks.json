@@ -1,0 +1,478 @@
+[
+  {
+    "id": "landmarks-eiffel-tower",
+    "category": "landmarks",
+    "answer": "Eiffel Tower",
+    "options": [
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal",
+      "Colosseum"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-eiffel-tower-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-eiffel-tower-original.png",
+    "hintMask": "/assets/landmarks/landmarks-eiffel-tower-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-statue-of-liberty",
+    "category": "landmarks",
+    "answer": "Statue of Liberty",
+    "options": [
+      "Statue of Liberty",
+      "Eiffel Tower",
+      "Taj Mahal",
+      "Colosseum"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-statue-of-liberty-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-statue-of-liberty-original.png",
+    "hintMask": "/assets/landmarks/landmarks-statue-of-liberty-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-taj-mahal",
+    "category": "landmarks",
+    "answer": "Taj Mahal",
+    "options": [
+      "Taj Mahal",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Colosseum"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-taj-mahal-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-taj-mahal-original.png",
+    "hintMask": "/assets/landmarks/landmarks-taj-mahal-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Taj_Mahal",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-colosseum",
+    "category": "landmarks",
+    "answer": "Colosseum",
+    "options": [
+      "Colosseum",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-colosseum-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-colosseum-original.png",
+    "hintMask": "/assets/landmarks/landmarks-colosseum-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Colosseum",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-big-ben",
+    "category": "landmarks",
+    "answer": "Big Ben",
+    "options": [
+      "Big Ben",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-big-ben-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-big-ben-original.png",
+    "hintMask": "/assets/landmarks/landmarks-big-ben-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Big_Ben",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-great-wall",
+    "category": "landmarks",
+    "answer": "Great Wall of China",
+    "options": [
+      "Great Wall of China",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-great-wall-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-great-wall-original.png",
+    "hintMask": "/assets/landmarks/landmarks-great-wall-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-sydney-opera",
+    "category": "landmarks",
+    "answer": "Sydney Opera House",
+    "options": [
+      "Sydney Opera House",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-sydney-opera-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-sydney-opera-original.png",
+    "hintMask": "/assets/landmarks/landmarks-sydney-opera-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sydney_Opera_House",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-christ-redeemer",
+    "category": "landmarks",
+    "answer": "Christ the Redeemer",
+    "options": [
+      "Christ the Redeemer",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-christ-redeemer-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-christ-redeemer-original.png",
+    "hintMask": "/assets/landmarks/landmarks-christ-redeemer-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-pyramids-giza",
+    "category": "landmarks",
+    "answer": "Pyramids of Giza",
+    "options": [
+      "Pyramids of Giza",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-pyramids-giza-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-pyramids-giza-original.png",
+    "hintMask": "/assets/landmarks/landmarks-pyramids-giza-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-tower-pisa",
+    "category": "landmarks",
+    "answer": "Leaning Tower of Pisa",
+    "options": [
+      "Leaning Tower of Pisa",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-tower-pisa-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-tower-pisa-original.png",
+    "hintMask": "/assets/landmarks/landmarks-tower-pisa-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-machu-picchu",
+    "category": "landmarks",
+    "answer": "Machu Picchu",
+    "options": [
+      "Machu Picchu",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-machu-picchu-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-machu-picchu-original.png",
+    "hintMask": "/assets/landmarks/landmarks-machu-picchu-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Machu_Picchu",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-stonehenge",
+    "category": "landmarks",
+    "answer": "Stonehenge",
+    "options": [
+      "Stonehenge",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-stonehenge-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-stonehenge-original.png",
+    "hintMask": "/assets/landmarks/landmarks-stonehenge-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Stonehenge",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-mount-rushmore",
+    "category": "landmarks",
+    "answer": "Mount Rushmore",
+    "options": [
+      "Mount Rushmore",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-mount-rushmore-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-mount-rushmore-original.png",
+    "hintMask": "/assets/landmarks/landmarks-mount-rushmore-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Rushmore",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-golden-gate",
+    "category": "landmarks",
+    "answer": "Golden Gate Bridge",
+    "options": [
+      "Golden Gate Bridge",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-golden-gate-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-golden-gate-original.png",
+    "hintMask": "/assets/landmarks/landmarks-golden-gate-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-parthenon",
+    "category": "landmarks",
+    "answer": "Parthenon",
+    "options": [
+      "Parthenon",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-parthenon-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-parthenon-original.png",
+    "hintMask": "/assets/landmarks/landmarks-parthenon-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Parthenon",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-brandenburg-gate",
+    "category": "landmarks",
+    "answer": "Brandenburg Gate",
+    "options": [
+      "Brandenburg Gate",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-brandenburg-gate-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-brandenburg-gate-original.png",
+    "hintMask": "/assets/landmarks/landmarks-brandenburg-gate-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Brandenburg_Gate",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-mount-fuji",
+    "category": "landmarks",
+    "answer": "Mount Fuji",
+    "options": [
+      "Mount Fuji",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-mount-fuji-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-mount-fuji-original.png",
+    "hintMask": "/assets/landmarks/landmarks-mount-fuji-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Fuji",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-moai",
+    "category": "landmarks",
+    "answer": "Moai",
+    "options": [
+      "Moai",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-moai-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-moai-original.png",
+    "hintMask": "/assets/landmarks/landmarks-moai-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Moai",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-vienna-opera",
+    "category": "landmarks",
+    "answer": "Opera House Vienna",
+    "options": [
+      "Opera House Vienna",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-vienna-opera-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-vienna-opera-original.png",
+    "hintMask": "/assets/landmarks/landmarks-vienna-opera-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Vienna_State_Opera",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-buckingham-palace",
+    "category": "landmarks",
+    "answer": "Buckingham Palace",
+    "options": [
+      "Buckingham Palace",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-buckingham-palace-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-buckingham-palace-original.png",
+    "hintMask": "/assets/landmarks/landmarks-buckingham-palace-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Buckingham_Palace",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-washington-monument",
+    "category": "landmarks",
+    "answer": "Washington Monument",
+    "options": [
+      "Washington Monument",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-washington-monument-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-washington-monument-original.png",
+    "hintMask": "/assets/landmarks/landmarks-washington-monument-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Washington_Monument",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-windmill",
+    "category": "landmarks",
+    "answer": "Windmill",
+    "options": [
+      "Windmill",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-windmill-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-windmill-original.png",
+    "hintMask": "/assets/landmarks/landmarks-windmill-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Windmill",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-louvre",
+    "category": "landmarks",
+    "answer": "Louvre",
+    "options": [
+      "Louvre",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-louvre-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-louvre-original.png",
+    "hintMask": "/assets/landmarks/landmarks-louvre-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Louvre",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-lighthouse-alexandria",
+    "category": "landmarks",
+    "answer": "Lighthouse of Alexandria",
+    "options": [
+      "Lighthouse of Alexandria",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-lighthouse-alexandria-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-lighthouse-alexandria-original.png",
+    "hintMask": "/assets/landmarks/landmarks-lighthouse-alexandria-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-uluru",
+    "category": "landmarks",
+    "answer": "Uluru",
+    "options": [
+      "Uluru",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-uluru-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-uluru-original.png",
+    "hintMask": "/assets/landmarks/landmarks-uluru-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Uluru",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-matterhorn",
+    "category": "landmarks",
+    "answer": "Matterhorn",
+    "options": [
+      "Matterhorn",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-matterhorn-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-matterhorn-original.png",
+    "hintMask": "/assets/landmarks/landmarks-matterhorn-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Matterhorn",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-table-mountain",
+    "category": "landmarks",
+    "answer": "Table Mountain",
+    "options": [
+      "Table Mountain",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-table-mountain-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-table-mountain-original.png",
+    "hintMask": "/assets/landmarks/landmarks-table-mountain-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Table_Mountain",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "landmarks-great-barrier-reef",
+    "category": "landmarks",
+    "answer": "Great Barrier Reef",
+    "options": [
+      "Great Barrier Reef",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Taj Mahal"
+    ],
+    "silhouetteImage": "/assets/landmarks/landmarks-great-barrier-reef-silhouette.png",
+    "originalImage": "/assets/landmarks/landmarks-great-barrier-reef-original.png",
+    "hintMask": "/assets/landmarks/landmarks-great-barrier-reef-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Great_Barrier_Reef",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  }
+]
