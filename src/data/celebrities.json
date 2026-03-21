@@ -236,5 +236,243 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Dwayne_Johnson",
     "license": "CC BY-SA",
     "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-albert-einstein",
+    "category": "celebrities",
+    "answer": "Albert Einstein",
+    "options": [
+      "Albert Einstein",
+      "Marilyn Monroe",
+      "Michael Jackson",
+      "Elvis Presley"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-albert-einstein-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-albert-einstein-original.png",
+    "hintMask": "/assets/celebrities/celebrities-albert-einstein-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Albert_Einstein",
+    "license": "Public domain",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-charlie-chaplin",
+    "category": "celebrities",
+    "answer": "Charlie Chaplin",
+    "options": [
+      "Charlie Chaplin",
+      "Marilyn Monroe",
+      "Michael Jackson",
+      "Elvis Presley"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-charlie-chaplin-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-charlie-chaplin-original.png",
+    "hintMask": "/assets/celebrities/celebrities-charlie-chaplin-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Charlie_Chaplin",
+    "license": "Public domain",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-mahatma-gandhi",
+    "category": "celebrities",
+    "answer": "Mahatma Gandhi",
+    "options": [
+      "Mahatma Gandhi",
+      "Marilyn Monroe",
+      "Michael Jackson",
+      "Elvis Presley"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-mahatma-gandhi-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-mahatma-gandhi-original.png",
+    "hintMask": "/assets/celebrities/celebrities-mahatma-gandhi-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+    "license": "Public domain",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-usain-bolt",
+    "category": "celebrities",
+    "answer": "Usain Bolt",
+    "options": [
+      "Usain Bolt",
+      "Marilyn Monroe",
+      "Michael Jackson",
+      "Elvis Presley"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-usain-bolt-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-usain-bolt-original.png",
+    "hintMask": "/assets/celebrities/celebrities-usain-bolt-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Usain_Bolt",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-bob-marley",
+    "category": "celebrities",
+    "answer": "Bob Marley",
+    "options": [
+      "Bob Marley",
+      "Marilyn Monroe",
+      "Michael Jackson",
+      "Elvis Presley"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-bob-marley-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-bob-marley-original.png",
+    "hintMask": "/assets/celebrities/celebrities-bob-marley-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bob_Marley",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-oprah-winfrey",
+    "category": "celebrities",
+    "answer": "Oprah Winfrey",
+    "options": [
+      "Oprah Winfrey",
+      "Marilyn Monroe",
+      "Michael Jackson",
+      "Elvis Presley"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-oprah-winfrey-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-oprah-winfrey-original.png",
+    "hintMask": "/assets/celebrities/celebrities-oprah-winfrey-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Oprah_Winfrey",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-david-bowie",
+    "category": "celebrities",
+    "answer": "David Bowie",
+    "options": [
+      "David Bowie",
+      "Marilyn Monroe",
+      "Michael Jackson",
+      "Elvis Presley"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-david-bowie-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-david-bowie-original.png",
+    "hintMask": "/assets/celebrities/celebrities-david-bowie-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/David_Bowie",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-arnold-schwarzenegger",
+    "category": "celebrities",
+    "answer": "Arnold Schwarzenegger",
+    "options": [
+      "Arnold Schwarzenegger",
+      "Marilyn Monroe",
+      "Michael Jackson",
+      "Elvis Presley"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-arnold-schwarzenegger-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-arnold-schwarzenegger-original.png",
+    "hintMask": "/assets/celebrities/celebrities-arnold-schwarzenegger-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Arnold_Schwarzenegger",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-jackie-chan",
+    "category": "celebrities",
+    "answer": "Jackie Chan",
+    "options": [
+      "Jackie Chan",
+      "Marilyn Monroe",
+      "Michael Jackson",
+      "Elvis Presley"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-jackie-chan-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-jackie-chan-original.png",
+    "hintMask": "/assets/celebrities/celebrities-jackie-chan-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jackie_Chan",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-clint-eastwood",
+    "category": "celebrities",
+    "answer": "Clint Eastwood",
+    "options": [
+      "Clint Eastwood",
+      "Marilyn Monroe",
+      "Michael Jackson",
+      "Elvis Presley"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-clint-eastwood-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-clint-eastwood-original.png",
+    "hintMask": "/assets/celebrities/celebrities-clint-eastwood-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Clint_Eastwood",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-roger-federer",
+    "category": "celebrities",
+    "answer": "Roger Federer",
+    "options": [
+      "Roger Federer",
+      "Marilyn Monroe",
+      "Michael Jackson",
+      "Elvis Presley"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-roger-federer-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-roger-federer-original.png",
+    "hintMask": "/assets/celebrities/celebrities-roger-federer-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Roger_Federer",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-freddie-mercury",
+    "category": "celebrities",
+    "answer": "Freddie Mercury",
+    "options": [
+      "Freddie Mercury",
+      "Marilyn Monroe",
+      "Michael Jackson",
+      "Elvis Presley"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-freddie-mercury-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-freddie-mercury-original.png",
+    "hintMask": "/assets/celebrities/celebrities-freddie-mercury-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Freddie_Mercury",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-will-smith",
+    "category": "celebrities",
+    "answer": "Will Smith",
+    "options": [
+      "Will Smith",
+      "Marilyn Monroe",
+      "Michael Jackson",
+      "Elvis Presley"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-will-smith-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-will-smith-original.png",
+    "hintMask": "/assets/celebrities/celebrities-will-smith-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Will_Smith",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-morgan-freeman",
+    "category": "celebrities",
+    "answer": "Morgan Freeman",
+    "options": [
+      "Morgan Freeman",
+      "Marilyn Monroe",
+      "Michael Jackson",
+      "Elvis Presley"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-morgan-freeman-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-morgan-freeman-original.png",
+    "hintMask": "/assets/celebrities/celebrities-morgan-freeman-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Morgan_Freeman",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
   }
 ]

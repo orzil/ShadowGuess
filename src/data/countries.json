@@ -304,5 +304,175 @@
     "sourceUrl": "https://raw.githubusercontent.com/johan/world.geo.json/master/countries/SAU.geo.json",
     "license": "Open source dataset",
     "author": "johan/world.geo.json contributors"
+  },
+  {
+    "id": "countries-germany",
+    "category": "countries",
+    "answer": "Germany",
+    "options": [
+      "Germany",
+      "Japan",
+      "Italy",
+      "Chile"
+    ],
+    "silhouetteImage": "/assets/countries/countries-germany-silhouette.png",
+    "originalImage": "/assets/countries/countries-germany-original.png",
+    "hintMask": "/assets/countries/countries-germany-mask.png",
+    "sourceUrl": "https://raw.githubusercontent.com/johan/world.geo.json/master/countries/DEU.geo.json",
+    "license": "Open source dataset",
+    "author": "johan/world.geo.json contributors"
+  },
+  {
+    "id": "countries-russia",
+    "category": "countries",
+    "answer": "Russia",
+    "options": [
+      "Russia",
+      "Japan",
+      "Italy",
+      "Chile"
+    ],
+    "silhouetteImage": "/assets/countries/countries-russia-silhouette.png",
+    "originalImage": "/assets/countries/countries-russia-original.png",
+    "hintMask": "/assets/countries/countries-russia-mask.png",
+    "sourceUrl": "https://raw.githubusercontent.com/johan/world.geo.json/master/countries/RUS.geo.json",
+    "license": "Open source dataset",
+    "author": "johan/world.geo.json contributors"
+  },
+  {
+    "id": "countries-turkey",
+    "category": "countries",
+    "answer": "Turkey",
+    "options": [
+      "Turkey",
+      "Japan",
+      "Italy",
+      "Chile"
+    ],
+    "silhouetteImage": "/assets/countries/countries-turkey-silhouette.png",
+    "originalImage": "/assets/countries/countries-turkey-original.png",
+    "hintMask": "/assets/countries/countries-turkey-mask.png",
+    "sourceUrl": "https://raw.githubusercontent.com/johan/world.geo.json/master/countries/TUR.geo.json",
+    "license": "Open source dataset",
+    "author": "johan/world.geo.json contributors"
+  },
+  {
+    "id": "countries-thailand",
+    "category": "countries",
+    "answer": "Thailand",
+    "options": [
+      "Thailand",
+      "Japan",
+      "Italy",
+      "Chile"
+    ],
+    "silhouetteImage": "/assets/countries/countries-thailand-silhouette.png",
+    "originalImage": "/assets/countries/countries-thailand-original.png",
+    "hintMask": "/assets/countries/countries-thailand-mask.png",
+    "sourceUrl": "https://raw.githubusercontent.com/johan/world.geo.json/master/countries/THA.geo.json",
+    "license": "Open source dataset",
+    "author": "johan/world.geo.json contributors"
+  },
+  {
+    "id": "countries-greece",
+    "category": "countries",
+    "answer": "Greece",
+    "options": [
+      "Greece",
+      "Japan",
+      "Italy",
+      "Chile"
+    ],
+    "silhouetteImage": "/assets/countries/countries-greece-silhouette.png",
+    "originalImage": "/assets/countries/countries-greece-original.png",
+    "hintMask": "/assets/countries/countries-greece-mask.png",
+    "sourceUrl": "https://raw.githubusercontent.com/johan/world.geo.json/master/countries/GRC.geo.json",
+    "license": "Open source dataset",
+    "author": "johan/world.geo.json contributors"
+  },
+  {
+    "id": "countries-sweden",
+    "category": "countries",
+    "answer": "Sweden",
+    "options": [
+      "Sweden",
+      "Japan",
+      "Italy",
+      "Chile"
+    ],
+    "silhouetteImage": "/assets/countries/countries-sweden-silhouette.png",
+    "originalImage": "/assets/countries/countries-sweden-original.png",
+    "hintMask": "/assets/countries/countries-sweden-mask.png",
+    "sourceUrl": "https://raw.githubusercontent.com/johan/world.geo.json/master/countries/SWE.geo.json",
+    "license": "Open source dataset",
+    "author": "johan/world.geo.json contributors"
+  },
+  {
+    "id": "countries-colombia",
+    "category": "countries",
+    "answer": "Colombia",
+    "options": [
+      "Colombia",
+      "Japan",
+      "Italy",
+      "Chile"
+    ],
+    "silhouetteImage": "/assets/countries/countries-colombia-silhouette.png",
+    "originalImage": "/assets/countries/countries-colombia-original.png",
+    "hintMask": "/assets/countries/countries-colombia-mask.png",
+    "sourceUrl": "https://raw.githubusercontent.com/johan/world.geo.json/master/countries/COL.geo.json",
+    "license": "Open source dataset",
+    "author": "johan/world.geo.json contributors"
+  },
+  {
+    "id": "countries-indonesia",
+    "category": "countries",
+    "answer": "Indonesia",
+    "options": [
+      "Indonesia",
+      "Japan",
+      "Italy",
+      "Chile"
+    ],
+    "silhouetteImage": "/assets/countries/countries-indonesia-silhouette.png",
+    "originalImage": "/assets/countries/countries-indonesia-original.png",
+    "hintMask": "/assets/countries/countries-indonesia-mask.png",
+    "sourceUrl": "https://raw.githubusercontent.com/johan/world.geo.json/master/countries/IDN.geo.json",
+    "license": "Open source dataset",
+    "author": "johan/world.geo.json contributors"
+  },
+  {
+    "id": "countries-nigeria",
+    "category": "countries",
+    "answer": "Nigeria",
+    "options": [
+      "Nigeria",
+      "Japan",
+      "Italy",
+      "Chile"
+    ],
+    "silhouetteImage": "/assets/countries/countries-nigeria-silhouette.png",
+    "originalImage": "/assets/countries/countries-nigeria-original.png",
+    "hintMask": "/assets/countries/countries-nigeria-mask.png",
+    "sourceUrl": "https://raw.githubusercontent.com/johan/world.geo.json/master/countries/NGA.geo.json",
+    "license": "Open source dataset",
+    "author": "johan/world.geo.json contributors"
+  },
+  {
+    "id": "countries-new-zealand",
+    "category": "countries",
+    "answer": "New Zealand",
+    "options": [
+      "New Zealand",
+      "Japan",
+      "Italy",
+      "Chile"
+    ],
+    "silhouetteImage": "/assets/countries/countries-new-zealand-silhouette.png",
+    "originalImage": "/assets/countries/countries-new-zealand-original.png",
+    "hintMask": "/assets/countries/countries-new-zealand-mask.png",
+    "sourceUrl": "https://raw.githubusercontent.com/johan/world.geo.json/master/countries/NZL.geo.json",
+    "license": "Open source dataset",
+    "author": "johan/world.geo.json contributors"
   }
 ]
