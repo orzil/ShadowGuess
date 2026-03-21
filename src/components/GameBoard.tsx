@@ -75,24 +75,24 @@ export default function GameBoard() {
 
   const xpNext = useMemo(() => xpToNextLevel(profile.level), [profile.level]);
 
-  const startRound = (category: CategoryId, resetRun: boolean) => {
-    const excludedIds = resetRun ? [] : usedQuestionIds;
+  const nextQuestion = (category: CategoryId, excludedIds: string[]) => {
     const q = pickNextQuestion(category, excludedIds);
-    setSelectedCategory(category);
     setQuestion(q);
     setChoices(shuffleChoices(q.options));
-    setRemaining(getRoundSeconds());
     setHintUsed(false);
+    return q;
+  };
+
+  const startRound = (category: CategoryId) => {
+    const q = nextQuestion(category, []);
+    setSelectedCategory(category);
+    setRemaining(getRoundSeconds());
     setStatus("playing");
     setGameOverReason("");
-    setMessage(`Category: ${category}. Guess before time runs out.`);
-    if (resetRun) {
-      setScore(0);
-      setStreak(0);
-      setUsedQuestionIds([q.id]);
-    } else {
-      setUsedQuestionIds((prev) => [...prev, q.id]);
-    }
+    setMessage(`Category: ${category}. Guess as many as you can!`);
+    setScore(0);
+    setStreak(0);
+    setUsedQuestionIds([q.id]);
   };
 
   const handleChoice = (choice: string) => {
@@ -126,7 +126,9 @@ export default function GameBoard() {
     );
     setMessage(`Correct! +${addedScore} points, +${addedXp} XP.`);
     if (selectedCategory) {
-      startRound(selectedCategory, false);
+      const newUsed = [...usedQuestionIds, question.id];
+      setUsedQuestionIds(newUsed);
+      nextQuestion(selectedCategory, newUsed);
     }
   };
 
@@ -140,7 +142,7 @@ export default function GameBoard() {
           ShadowGuess
         </h1>
         <p style={{ margin: "4px 0 0", fontSize: "0.85rem", opacity: 0.8, color: "#bfdbfe" }}>
-          15s per silhouette. 1 wrong answer ends the run.
+          15 seconds. Guess as many silhouettes as you can!
         </p>
       </header>
 
@@ -152,7 +154,7 @@ export default function GameBoard() {
             <button
               key={cat.id}
               disabled={disabled}
-              onClick={() => unlocked && startRound(cat.id as CategoryId, true)}
+              onClick={() => unlocked && startRound(cat.id as CategoryId)}
               style={{
                 border: cat.comingSoon ? "1px solid #334155" : "1px solid #60a5fa",
                 borderRadius: 10,
@@ -317,7 +319,7 @@ export default function GameBoard() {
             </div>
 
             <button
-              onClick={() => selectedCategory && startRound(selectedCategory, true)}
+              onClick={() => selectedCategory && startRound(selectedCategory)}
               style={{
                 width: "100%",
                 border: "none",
