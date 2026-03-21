@@ -287,5 +287,243 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Flamingo",
     "license": "CC BY-SA",
     "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-lion",
+    "category": "animals",
+    "answer": "Lion",
+    "options": [
+      "Lion",
+      "Giraffe",
+      "Zebra",
+      "Panda"
+    ],
+    "silhouetteImage": "/assets/animals/animals-lion-silhouette.png",
+    "originalImage": "/assets/animals/animals-lion-original.png",
+    "hintMask": "/assets/animals/animals-lion-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lion",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-tiger",
+    "category": "animals",
+    "answer": "Tiger",
+    "options": [
+      "Tiger",
+      "Giraffe",
+      "Zebra",
+      "Panda"
+    ],
+    "silhouetteImage": "/assets/animals/animals-tiger-silhouette.png",
+    "originalImage": "/assets/animals/animals-tiger-original.png",
+    "hintMask": "/assets/animals/animals-tiger-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tiger",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-elephant",
+    "category": "animals",
+    "answer": "Elephant",
+    "options": [
+      "Elephant",
+      "Giraffe",
+      "Zebra",
+      "Panda"
+    ],
+    "silhouetteImage": "/assets/animals/animals-elephant-silhouette.png",
+    "originalImage": "/assets/animals/animals-elephant-original.png",
+    "hintMask": "/assets/animals/animals-elephant-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Elephant",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-kangaroo",
+    "category": "animals",
+    "answer": "Kangaroo",
+    "options": [
+      "Kangaroo",
+      "Giraffe",
+      "Zebra",
+      "Panda"
+    ],
+    "silhouetteImage": "/assets/animals/animals-kangaroo-silhouette.png",
+    "originalImage": "/assets/animals/animals-kangaroo-original.png",
+    "hintMask": "/assets/animals/animals-kangaroo-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kangaroo",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-rhinoceros",
+    "category": "animals",
+    "answer": "Rhinoceros",
+    "options": [
+      "Rhinoceros",
+      "Giraffe",
+      "Zebra",
+      "Panda"
+    ],
+    "silhouetteImage": "/assets/animals/animals-rhinoceros-silhouette.png",
+    "originalImage": "/assets/animals/animals-rhinoceros-original.png",
+    "hintMask": "/assets/animals/animals-rhinoceros-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rhinoceros",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-hippopotamus",
+    "category": "animals",
+    "answer": "Hippopotamus",
+    "options": [
+      "Hippopotamus",
+      "Giraffe",
+      "Zebra",
+      "Panda"
+    ],
+    "silhouetteImage": "/assets/animals/animals-hippopotamus-silhouette.png",
+    "originalImage": "/assets/animals/animals-hippopotamus-original.png",
+    "hintMask": "/assets/animals/animals-hippopotamus-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hippopotamus",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-polar-bear",
+    "category": "animals",
+    "answer": "Polar Bear",
+    "options": [
+      "Polar Bear",
+      "Giraffe",
+      "Zebra",
+      "Panda"
+    ],
+    "silhouetteImage": "/assets/animals/animals-polar-bear-silhouette.png",
+    "originalImage": "/assets/animals/animals-polar-bear-original.png",
+    "hintMask": "/assets/animals/animals-polar-bear-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Polar_bear",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-toucan",
+    "category": "animals",
+    "answer": "Toucan",
+    "options": [
+      "Toucan",
+      "Giraffe",
+      "Zebra",
+      "Panda"
+    ],
+    "silhouetteImage": "/assets/animals/animals-toucan-silhouette.png",
+    "originalImage": "/assets/animals/animals-toucan-original.png",
+    "hintMask": "/assets/animals/animals-toucan-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Toucan",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-iguana",
+    "category": "animals",
+    "answer": "Iguana",
+    "options": [
+      "Iguana",
+      "Giraffe",
+      "Zebra",
+      "Panda"
+    ],
+    "silhouetteImage": "/assets/animals/animals-iguana-silhouette.png",
+    "originalImage": "/assets/animals/animals-iguana-original.png",
+    "hintMask": "/assets/animals/animals-iguana-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Iguana",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-jellyfish",
+    "category": "animals",
+    "answer": "Jellyfish",
+    "options": [
+      "Jellyfish",
+      "Giraffe",
+      "Zebra",
+      "Panda"
+    ],
+    "silhouetteImage": "/assets/animals/animals-jellyfish-silhouette.png",
+    "originalImage": "/assets/animals/animals-jellyfish-original.png",
+    "hintMask": "/assets/animals/animals-jellyfish-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jellyfish",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-hedgehog",
+    "category": "animals",
+    "answer": "Hedgehog",
+    "options": [
+      "Hedgehog",
+      "Giraffe",
+      "Zebra",
+      "Panda"
+    ],
+    "silhouetteImage": "/assets/animals/animals-hedgehog-silhouette.png",
+    "originalImage": "/assets/animals/animals-hedgehog-original.png",
+    "hintMask": "/assets/animals/animals-hedgehog-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hedgehog",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-peacock",
+    "category": "animals",
+    "answer": "Peacock",
+    "options": [
+      "Peacock",
+      "Giraffe",
+      "Zebra",
+      "Panda"
+    ],
+    "silhouetteImage": "/assets/animals/animals-peacock-silhouette.png",
+    "originalImage": "/assets/animals/animals-peacock-original.png",
+    "hintMask": "/assets/animals/animals-peacock-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Peafowl",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-sea-turtle",
+    "category": "animals",
+    "answer": "Sea Turtle",
+    "options": [
+      "Sea Turtle",
+      "Giraffe",
+      "Zebra",
+      "Panda"
+    ],
+    "silhouetteImage": "/assets/animals/animals-sea-turtle-silhouette.png",
+    "originalImage": "/assets/animals/animals-sea-turtle-original.png",
+    "hintMask": "/assets/animals/animals-sea-turtle-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sea_turtle",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-bison",
+    "category": "animals",
+    "answer": "Bison",
+    "options": [
+      "Bison",
+      "Giraffe",
+      "Zebra",
+      "Panda"
+    ],
+    "silhouetteImage": "/assets/animals/animals-bison-silhouette.png",
+    "originalImage": "/assets/animals/animals-bison-original.png",
+    "hintMask": "/assets/animals/animals-bison-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bison",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
   }
 ]
