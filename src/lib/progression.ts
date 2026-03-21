@@ -13,7 +13,8 @@ export const defaultProfile: PlayerProfile = {
   level: 1,
   unlockedCategories: BASE_UNLOCKS,
   bestScore: 0,
-  bestStreak: 0
+  bestStreak: 0,
+  bestCategory: null
 };
 
 export function xpToNextLevel(level: number): number {

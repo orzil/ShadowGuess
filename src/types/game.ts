@@ -23,6 +23,7 @@ export type PlayerProfile = {
   unlockedCategories: UnlockableCategoryId[];
   bestScore: number;
   bestStreak: number;
+  bestCategory: CategoryId | null;
 };
 
 export type RoundView = {
