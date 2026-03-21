@@ -3,7 +3,7 @@ import celebrities from "@/data/celebrities.json";
 import animals from "@/data/animals.json";
 import type { CategoryId, ChoiceQuestion } from "@/types/game";
 
-const ROUND_SECONDS = 30;
+const ROUND_SECONDS = 15;
 
 const byCategory: Record<CategoryId, ChoiceQuestion[]> = {
   countries: countries as ChoiceQuestion[],

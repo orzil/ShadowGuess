@@ -140,7 +140,7 @@ export default function GameBoard() {
           ShadowGuess
         </h1>
         <p style={{ margin: "4px 0 0", fontSize: "0.85rem", opacity: 0.8, color: "#bfdbfe" }}>
-          30s per silhouette. 1 wrong answer ends the run.
+          15s per silhouette. 1 wrong answer ends the run.
         </p>
       </header>
 
