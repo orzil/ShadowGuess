@@ -1,0 +1,291 @@
+[
+  {
+    "id": "animals-giraffe",
+    "category": "animals",
+    "answer": "Giraffe",
+    "options": [
+      "Giraffe",
+      "Lion",
+      "Tiger",
+      "Elephant"
+    ],
+    "silhouetteImage": "/assets/animals/animals-giraffe-silhouette.png",
+    "originalImage": "/assets/animals/animals-giraffe-original.png",
+    "hintMask": "/assets/animals/animals-giraffe-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Giraffe",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-zebra",
+    "category": "animals",
+    "answer": "Zebra",
+    "options": [
+      "Zebra",
+      "Lion",
+      "Tiger",
+      "Elephant"
+    ],
+    "silhouetteImage": "/assets/animals/animals-zebra-silhouette.png",
+    "originalImage": "/assets/animals/animals-zebra-original.png",
+    "hintMask": "/assets/animals/animals-zebra-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Zebra",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-panda",
+    "category": "animals",
+    "answer": "Panda",
+    "options": [
+      "Panda",
+      "Lion",
+      "Tiger",
+      "Elephant"
+    ],
+    "silhouetteImage": "/assets/animals/animals-panda-silhouette.png",
+    "originalImage": "/assets/animals/animals-panda-original.png",
+    "hintMask": "/assets/animals/animals-panda-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Giant_panda",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-penguin",
+    "category": "animals",
+    "answer": "Penguin",
+    "options": [
+      "Penguin",
+      "Lion",
+      "Tiger",
+      "Elephant"
+    ],
+    "silhouetteImage": "/assets/animals/animals-penguin-silhouette.png",
+    "originalImage": "/assets/animals/animals-penguin-original.png",
+    "hintMask": "/assets/animals/animals-penguin-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Penguin",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-shark",
+    "category": "animals",
+    "answer": "Shark",
+    "options": [
+      "Shark",
+      "Lion",
+      "Tiger",
+      "Elephant"
+    ],
+    "silhouetteImage": "/assets/animals/animals-shark-silhouette.png",
+    "originalImage": "/assets/animals/animals-shark-original.png",
+    "hintMask": "/assets/animals/animals-shark-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Shark",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-eagle",
+    "category": "animals",
+    "answer": "Eagle",
+    "options": [
+      "Eagle",
+      "Lion",
+      "Tiger",
+      "Elephant"
+    ],
+    "silhouetteImage": "/assets/animals/animals-eagle-silhouette.png",
+    "originalImage": "/assets/animals/animals-eagle-original.png",
+    "hintMask": "/assets/animals/animals-eagle-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Eagle",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-fox",
+    "category": "animals",
+    "answer": "Fox",
+    "options": [
+      "Fox",
+      "Lion",
+      "Tiger",
+      "Elephant"
+    ],
+    "silhouetteImage": "/assets/animals/animals-fox-silhouette.png",
+    "originalImage": "/assets/animals/animals-fox-original.png",
+    "hintMask": "/assets/animals/animals-fox-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Fox",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-bear",
+    "category": "animals",
+    "answer": "Bear",
+    "options": [
+      "Bear",
+      "Lion",
+      "Tiger",
+      "Elephant"
+    ],
+    "silhouetteImage": "/assets/animals/animals-bear-silhouette.png",
+    "originalImage": "/assets/animals/animals-bear-original.png",
+    "hintMask": "/assets/animals/animals-bear-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bear",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-rabbit",
+    "category": "animals",
+    "answer": "Rabbit",
+    "options": [
+      "Rabbit",
+      "Lion",
+      "Tiger",
+      "Elephant"
+    ],
+    "silhouetteImage": "/assets/animals/animals-rabbit-silhouette.png",
+    "originalImage": "/assets/animals/animals-rabbit-original.png",
+    "hintMask": "/assets/animals/animals-rabbit-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rabbit",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-horse",
+    "category": "animals",
+    "answer": "Horse",
+    "options": [
+      "Horse",
+      "Lion",
+      "Tiger",
+      "Elephant"
+    ],
+    "silhouetteImage": "/assets/animals/animals-horse-silhouette.png",
+    "originalImage": "/assets/animals/animals-horse-original.png",
+    "hintMask": "/assets/animals/animals-horse-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Horse",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-koala",
+    "category": "animals",
+    "answer": "Koala",
+    "options": [
+      "Koala",
+      "Lion",
+      "Tiger",
+      "Elephant"
+    ],
+    "silhouetteImage": "/assets/animals/animals-koala-silhouette.png",
+    "originalImage": "/assets/animals/animals-koala-original.png",
+    "hintMask": "/assets/animals/animals-koala-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Koala",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-camel",
+    "category": "animals",
+    "answer": "Camel",
+    "options": [
+      "Camel",
+      "Lion",
+      "Tiger",
+      "Elephant"
+    ],
+    "silhouetteImage": "/assets/animals/animals-camel-silhouette.png",
+    "originalImage": "/assets/animals/animals-camel-original.png",
+    "hintMask": "/assets/animals/animals-camel-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Camel",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-deer",
+    "category": "animals",
+    "answer": "Deer",
+    "options": [
+      "Deer",
+      "Lion",
+      "Tiger",
+      "Elephant"
+    ],
+    "silhouetteImage": "/assets/animals/animals-deer-silhouette.png",
+    "originalImage": "/assets/animals/animals-deer-original.png",
+    "hintMask": "/assets/animals/animals-deer-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Deer",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-monkey",
+    "category": "animals",
+    "answer": "Monkey",
+    "options": [
+      "Monkey",
+      "Lion",
+      "Tiger",
+      "Elephant"
+    ],
+    "silhouetteImage": "/assets/animals/animals-monkey-silhouette.png",
+    "originalImage": "/assets/animals/animals-monkey-original.png",
+    "hintMask": "/assets/animals/animals-monkey-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Monkey",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-gorilla",
+    "category": "animals",
+    "answer": "Gorilla",
+    "options": [
+      "Gorilla",
+      "Lion",
+      "Tiger",
+      "Elephant"
+    ],
+    "silhouetteImage": "/assets/animals/animals-gorilla-silhouette.png",
+    "originalImage": "/assets/animals/animals-gorilla-original.png",
+    "hintMask": "/assets/animals/animals-gorilla-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gorilla",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-octopus",
+    "category": "animals",
+    "answer": "Octopus",
+    "options": [
+      "Octopus",
+      "Lion",
+      "Tiger",
+      "Elephant"
+    ],
+    "silhouetteImage": "/assets/animals/animals-octopus-silhouette.png",
+    "originalImage": "/assets/animals/animals-octopus-original.png",
+    "hintMask": "/assets/animals/animals-octopus-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Octopus",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "animals-flamingo",
+    "category": "animals",
+    "answer": "Flamingo",
+    "options": [
+      "Flamingo",
+      "Lion",
+      "Tiger",
+      "Elephant"
+    ],
+    "silhouetteImage": "/assets/animals/animals-flamingo-silhouette.png",
+    "originalImage": "/assets/animals/animals-flamingo-original.png",
+    "hintMask": "/assets/animals/animals-flamingo-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Flamingo",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  }
+]

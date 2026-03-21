@@ -1,0 +1,240 @@
+[
+  {
+    "id": "celebrities-marilyn-monroe",
+    "category": "celebrities",
+    "answer": "Marilyn Monroe",
+    "options": [
+      "Marilyn Monroe",
+      "Charlie Chaplin",
+      "Michael Jackson",
+      "Elvis Presley"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-marilyn-monroe-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-marilyn-monroe-original.png",
+    "hintMask": "/assets/celebrities/celebrities-marilyn-monroe-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Marilyn_Monroe",
+    "license": "Public domain",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-michael-jackson",
+    "category": "celebrities",
+    "answer": "Michael Jackson",
+    "options": [
+      "Michael Jackson",
+      "Charlie Chaplin",
+      "Marilyn Monroe",
+      "Elvis Presley"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-michael-jackson-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-michael-jackson-original.png",
+    "hintMask": "/assets/celebrities/celebrities-michael-jackson-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Michael_Jackson",
+    "license": "CC BY-SA 3.0",
+    "author": "Zoran Veselinovic"
+  },
+  {
+    "id": "celebrities-elvis-presley",
+    "category": "celebrities",
+    "answer": "Elvis Presley",
+    "options": [
+      "Elvis Presley",
+      "Charlie Chaplin",
+      "Marilyn Monroe",
+      "Michael Jackson"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-elvis-presley-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-elvis-presley-original.png",
+    "hintMask": "/assets/celebrities/celebrities-elvis-presley-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Elvis_Presley",
+    "license": "Public domain",
+    "author": "MGM studio"
+  },
+  {
+    "id": "celebrities-audrey-hepburn",
+    "category": "celebrities",
+    "answer": "Audrey Hepburn",
+    "options": [
+      "Audrey Hepburn",
+      "Charlie Chaplin",
+      "Marilyn Monroe",
+      "Michael Jackson"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-audrey-hepburn-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-audrey-hepburn-original.png",
+    "hintMask": "/assets/celebrities/celebrities-audrey-hepburn-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Audrey_Hepburn",
+    "license": "Public domain",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-bruce-lee",
+    "category": "celebrities",
+    "answer": "Bruce Lee",
+    "options": [
+      "Bruce Lee",
+      "Charlie Chaplin",
+      "Marilyn Monroe",
+      "Michael Jackson"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-bruce-lee-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-bruce-lee-original.png",
+    "hintMask": "/assets/celebrities/celebrities-bruce-lee-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bruce_Lee",
+    "license": "Fair use style source",
+    "author": "Press photo"
+  },
+  {
+    "id": "celebrities-frida-kahlo",
+    "category": "celebrities",
+    "answer": "Frida Kahlo",
+    "options": [
+      "Frida Kahlo",
+      "Charlie Chaplin",
+      "Marilyn Monroe",
+      "Michael Jackson"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-frida-kahlo-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-frida-kahlo-original.png",
+    "hintMask": "/assets/celebrities/celebrities-frida-kahlo-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Frida_Kahlo",
+    "license": "Public domain",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-muhammad-ali",
+    "category": "celebrities",
+    "answer": "Muhammad Ali",
+    "options": [
+      "Muhammad Ali",
+      "Charlie Chaplin",
+      "Marilyn Monroe",
+      "Michael Jackson"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-muhammad-ali-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-muhammad-ali-original.png",
+    "hintMask": "/assets/celebrities/celebrities-muhammad-ali-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Muhammad_Ali",
+    "license": "Public domain",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-princess-diana",
+    "category": "celebrities",
+    "answer": "Princess Diana",
+    "options": [
+      "Princess Diana",
+      "Charlie Chaplin",
+      "Marilyn Monroe",
+      "Michael Jackson"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-princess-diana-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-princess-diana-original.png",
+    "hintMask": "/assets/celebrities/celebrities-princess-diana-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Diana,_Princess_of_Wales",
+    "license": "Public domain",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-nelson-mandela",
+    "category": "celebrities",
+    "answer": "Nelson Mandela",
+    "options": [
+      "Nelson Mandela",
+      "Charlie Chaplin",
+      "Marilyn Monroe",
+      "Michael Jackson"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-nelson-mandela-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-nelson-mandela-original.png",
+    "hintMask": "/assets/celebrities/celebrities-nelson-mandela-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nelson_Mandela",
+    "license": "Public domain",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-cristiano-ronaldo",
+    "category": "celebrities",
+    "answer": "Cristiano Ronaldo",
+    "options": [
+      "Cristiano Ronaldo",
+      "Charlie Chaplin",
+      "Marilyn Monroe",
+      "Michael Jackson"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-cristiano-ronaldo-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-cristiano-ronaldo-original.png",
+    "hintMask": "/assets/celebrities/celebrities-cristiano-ronaldo-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-lionel-messi",
+    "category": "celebrities",
+    "answer": "Lionel Messi",
+    "options": [
+      "Lionel Messi",
+      "Charlie Chaplin",
+      "Marilyn Monroe",
+      "Michael Jackson"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-lionel-messi-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-lionel-messi-original.png",
+    "hintMask": "/assets/celebrities/celebrities-lionel-messi-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lionel_Messi",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-serena-williams",
+    "category": "celebrities",
+    "answer": "Serena Williams",
+    "options": [
+      "Serena Williams",
+      "Charlie Chaplin",
+      "Marilyn Monroe",
+      "Michael Jackson"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-serena-williams-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-serena-williams-original.png",
+    "hintMask": "/assets/celebrities/celebrities-serena-williams-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Serena_Williams",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-taylor-swift",
+    "category": "celebrities",
+    "answer": "Taylor Swift",
+    "options": [
+      "Taylor Swift",
+      "Charlie Chaplin",
+      "Marilyn Monroe",
+      "Michael Jackson"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-taylor-swift-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-taylor-swift-original.png",
+    "hintMask": "/assets/celebrities/celebrities-taylor-swift-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Taylor_Swift",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "celebrities-dwayne-johnson",
+    "category": "celebrities",
+    "answer": "Dwayne Johnson",
+    "options": [
+      "Dwayne Johnson",
+      "Charlie Chaplin",
+      "Marilyn Monroe",
+      "Michael Jackson"
+    ],
+    "silhouetteImage": "/assets/celebrities/celebrities-dwayne-johnson-silhouette.png",
+    "originalImage": "/assets/celebrities/celebrities-dwayne-johnson-original.png",
+    "hintMask": "/assets/celebrities/celebrities-dwayne-johnson-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dwayne_Johnson",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  }
+]

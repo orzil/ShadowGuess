@@ -1,0 +1,18 @@
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Segoe UI, Arial, sans-serif;
+  background: radial-gradient(circle at 15% 10%, #4f46e5 0%, #1d4ed8 30%, #0f172a 65%, #020617 100%);
+  color: #f8fafc;
+}
+
+button {
+  font: inherit;
+}
