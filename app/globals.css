@@ -10,9 +10,54 @@ body {
   margin: 0;
   font-family: Inter, Segoe UI, Arial, sans-serif;
   background: radial-gradient(circle at 15% 10%, #4f46e5 0%, #1d4ed8 30%, #0f172a 65%, #020617 100%);
+  min-height: 100vh;
   color: #f8fafc;
 }
 
 button {
   font: inherit;
+  transition: transform 0.1s, box-shadow 0.15s;
+}
+
+button:not(:disabled):hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.3);
+}
+
+button:not(:disabled):active {
+  transform: translateY(0);
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(2, 6, 23, 0.82);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  animation: fadeIn 0.25s ease-out;
+}
+
+.modal {
+  background: linear-gradient(160deg, #1e293b 0%, #1e3a5f 100%);
+  border: 1px solid rgba(96, 165, 250, 0.5);
+  border-radius: 20px;
+  padding: 32px 40px;
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
 }

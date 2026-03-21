@@ -14,14 +14,15 @@ import type { CategoryId, ChoiceQuestion, PlayerProfile, UnlockableCategoryId } 
 type ActiveCategoryCard = {
   id: UnlockableCategoryId;
   label: string;
+  comingSoon?: boolean;
 };
 
 const categoryCards: ActiveCategoryCard[] = [
   { id: "countries", label: "Countries" },
   { id: "celebrities", label: "Celebrities" },
-  { id: "landmarks", label: "Landmarks" },
   { id: "animals", label: "Animals" },
-  { id: "objects", label: "Objects" }
+  { id: "landmarks", label: "Landmarks", comingSoon: true },
+  { id: "objects", label: "Objects", comingSoon: true }
 ];
 
 export default function GameBoard() {
@@ -37,6 +38,7 @@ export default function GameBoard() {
   const [status, setStatus] = useState<"idle" | "playing" | "gameover">("idle");
   const [usedQuestionIds, setUsedQuestionIds] = useState<string[]>([]);
   const [message, setMessage] = useState("Pick a category to start.");
+  const [gameOverReason, setGameOverReason] = useState("");
 
   useEffect(() => {
     const raf = window.requestAnimationFrame(() => {
@@ -53,13 +55,19 @@ export default function GameBoard() {
         if (s <= 1) {
           setStatus("gameover");
           setMessage("Time is up! Game over.");
+          setGameOverReason("Time's up!");
+          setProfile((prev) => ({
+            ...prev,
+            bestScore: Math.max(prev.bestScore, score),
+            bestStreak: Math.max(prev.bestStreak, streak)
+          }));
           return 0;
         }
         return s - 1;
       });
     }, 1000);
     return () => window.clearTimeout(timer);
-  }, [remaining, status]);
+  }, [remaining, status, score, streak]);
 
   useEffect(() => {
     saveProfile(profile);
@@ -76,6 +84,7 @@ export default function GameBoard() {
     setRemaining(getRoundSeconds());
     setHintUsed(false);
     setStatus("playing");
+    setGameOverReason("");
     setMessage(`Category: ${category}. Guess before time runs out.`);
     if (resetRun) {
       setScore(0);
@@ -91,6 +100,7 @@ export default function GameBoard() {
 
     if (choice !== question.answer) {
       setStatus("gameover");
+      setGameOverReason(`Wrong! It was ${question.answer}`);
       setMessage(`Wrong answer: ${choice}. Correct was ${question.answer}.`);
       setProfile((prev) => ({
         ...prev,
@@ -120,36 +130,43 @@ export default function GameBoard() {
     }
   };
 
-  return (
-    <main style={{ maxWidth: 980, margin: "0 auto", padding: 24 }}>
-      <h1 style={{ marginBottom: 6, color: "#fef08a", textShadow: "0 2px 14px rgba(245, 158, 11, 0.45)" }}>
-        ShadowGuess
-      </h1>
-      <p style={{ marginTop: 0, opacity: 0.95, color: "#bfdbfe" }}>
-        30s per silhouette. 1 wrong answer ends the run. Use one hint per round.
-      </p>
+  const timerPct = (remaining / getRoundSeconds()) * 100;
+  const timerColor = remaining <= 5 ? "#ef4444" : remaining <= 10 ? "#f59e0b" : "#22d3ee";
 
-      <section style={{ display: "flex", gap: 12, flexWrap: "wrap", marginBottom: 16 }}>
+  return (
+    <main style={{ maxWidth: 540, margin: "0 auto", padding: "20px 16px" }}>
+      <header style={{ textAlign: "center", marginBottom: 20 }}>
+        <h1 style={{ margin: 0, fontSize: "2rem", color: "#fef08a", textShadow: "0 2px 14px rgba(245, 158, 11, 0.45)" }}>
+          ShadowGuess
+        </h1>
+        <p style={{ margin: "4px 0 0", fontSize: "0.85rem", opacity: 0.8, color: "#bfdbfe" }}>
+          30s per silhouette. 1 wrong answer ends the run.
+        </p>
+      </header>
+
+      <section style={{ display: "flex", gap: 8, flexWrap: "wrap", justifyContent: "center", marginBottom: 16 }}>
         {categoryCards.map((cat) => {
-          const unlocked = isMounted && profile.unlockedCategories.includes(cat.id);
+          const unlocked = !cat.comingSoon && isMounted && profile.unlockedCategories.includes(cat.id);
+          const disabled = cat.comingSoon || !unlocked;
           return (
             <button
               key={cat.id}
-              disabled={!unlocked}
+              disabled={disabled}
               onClick={() => unlocked && startRound(cat.id as CategoryId, true)}
               style={{
-                border: "1px solid #60a5fa",
-                borderRadius: 12,
-                padding: "10px 14px",
+                border: cat.comingSoon ? "1px solid #334155" : "1px solid #60a5fa",
+                borderRadius: 10,
+                padding: "8px 16px",
+                fontSize: "0.9rem",
                 background: unlocked
                   ? "linear-gradient(135deg, rgba(14,165,233,0.28), rgba(99,102,241,0.35))"
                   : "rgba(15, 23, 42, 0.5)",
-                color: unlocked ? "#fef9c3" : "#94a3b8",
-                cursor: unlocked ? "pointer" : "not-allowed"
+                color: cat.comingSoon ? "#475569" : unlocked ? "#fef9c3" : "#94a3b8",
+                cursor: disabled ? "not-allowed" : "pointer",
+                textDecoration: cat.comingSoon ? "line-through" : "none"
               }}
             >
               {cat.label}
-              {!unlocked ? " (Locked)" : ""}
             </button>
           );
         })}
@@ -157,40 +174,53 @@ export default function GameBoard() {
 
       <section
         style={{
-          border: "1px solid rgba(96, 165, 250, 0.45)",
-          borderRadius: 14,
-          padding: 16,
-          marginBottom: 14,
-          background: "linear-gradient(170deg, rgba(30,41,59,0.86), rgba(30,58,138,0.45))"
+          border: "1px solid rgba(96, 165, 250, 0.3)",
+          borderRadius: 16,
+          padding: "16px 16px 20px",
+          background: "linear-gradient(170deg, rgba(30,41,59,0.9), rgba(30,58,138,0.4))"
         }}
       >
-        <div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 10, color: "#fde68a" }}>
-          <strong>Score: {score}</strong>
-          <strong>Streak: {streak}</strong>
-          <strong>Timer: {remaining}s</strong>
-          <strong>
-            Level: {profile.level} ({profile.xp}/{xpNext} XP)
-          </strong>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8, fontSize: "0.85rem", color: "#fde68a" }}>
+          <span>Score: <strong>{score}</strong></span>
+          <span>Streak: <strong>{streak}</strong></span>
+          <span>Lv <strong>{profile.level}</strong> ({profile.xp}/{xpNext})</span>
         </div>
-        <p style={{ marginTop: 0 }}>{message}</p>
 
-        {question && (
+        {status === "playing" && (
+          <div style={{ height: 4, borderRadius: 2, background: "rgba(255,255,255,0.1)", marginBottom: 12, overflow: "hidden" }}>
+            <div style={{
+              height: "100%",
+              width: `${timerPct}%`,
+              background: timerColor,
+              borderRadius: 2,
+              transition: "width 1s linear, background 0.3s"
+            }} />
+          </div>
+        )}
+
+        {status === "idle" && (
+          <p style={{ textAlign: "center", color: "#94a3b8", margin: "40px 0" }}>{message}</p>
+        )}
+
+        {question && status === "playing" && (
           <>
             <div
               style={{
                 position: "relative",
-                width: "min(100%, 460px)",
+                width: "100%",
+                maxWidth: 400,
                 aspectRatio: "1 / 1",
-                borderRadius: 12,
+                borderRadius: 14,
                 overflow: "hidden",
-                border: "1px solid rgba(56, 189, 248, 0.7)",
-                marginBottom: 14
+                border: "1px solid rgba(56, 189, 248, 0.4)",
+                margin: "0 auto 14px",
+                background: "#0f172a"
               }}
             >
               <img
                 src={question.silhouetteImage}
                 alt="silhouette"
-                style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+                style={{ width: "100%", height: "100%", objectFit: "contain", display: "block" }}
               />
               <img
                 src={question.originalImage}
@@ -200,7 +230,7 @@ export default function GameBoard() {
                   inset: 0,
                   width: "100%",
                   height: "100%",
-                  objectFit: "cover",
+                  objectFit: "contain",
                   display: hintUsed ? "block" : "none",
                   maskImage: `url(${question.hintMask})`,
                   maskSize: "cover",
@@ -210,35 +240,37 @@ export default function GameBoard() {
               />
             </div>
 
-            <button
-              onClick={() => setHintUsed(true)}
-              disabled={hintUsed || status !== "playing"}
-              style={{
-                border: "1px solid #22d3ee",
-                borderRadius: 10,
-                padding: "8px 12px",
-                marginBottom: 12,
-                background: hintUsed
-                  ? "rgba(15,23,42,0.7)"
-                  : "linear-gradient(135deg, rgba(34,211,238,0.35), rgba(99,102,241,0.35))",
-                color: hintUsed ? "#94a3b8" : "#f0f9ff"
-              }}
-            >
-              {hintUsed ? "Hint used" : "Use hint"}
-            </button>
+            <div style={{ textAlign: "center", marginBottom: 12 }}>
+              <button
+                onClick={() => setHintUsed(true)}
+                disabled={hintUsed}
+                style={{
+                  border: "1px solid #22d3ee",
+                  borderRadius: 8,
+                  padding: "6px 16px",
+                  fontSize: "0.85rem",
+                  background: hintUsed
+                    ? "rgba(15,23,42,0.7)"
+                    : "linear-gradient(135deg, rgba(34,211,238,0.3), rgba(99,102,241,0.3))",
+                  color: hintUsed ? "#64748b" : "#f0f9ff"
+                }}
+              >
+                {hintUsed ? "Hint used" : "Use hint"}
+              </button>
+            </div>
 
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: 10 }}>
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }}>
               {choices.map((choice) => (
                 <button
                   key={choice}
                   onClick={() => handleChoice(choice)}
-                  disabled={status !== "playing"}
                   style={{
-                    border: "1px solid rgba(167, 139, 250, 0.7)",
+                    border: "1px solid rgba(167, 139, 250, 0.5)",
                     borderRadius: 10,
-                    padding: "10px 12px",
-                    textAlign: "left",
-                    background: "linear-gradient(130deg, rgba(30,41,59,0.78), rgba(88,28,135,0.35))",
+                    padding: "12px 10px",
+                    textAlign: "center",
+                    fontSize: "0.9rem",
+                    background: "linear-gradient(130deg, rgba(30,41,59,0.8), rgba(88,28,135,0.3))",
                     color: "#f8fafc"
                   }}
                 >
@@ -250,19 +282,74 @@ export default function GameBoard() {
         )}
       </section>
 
-      {status === "gameover" && selectedCategory && (
-        <button
-          onClick={() => startRound(selectedCategory, true)}
-          style={{
-            border: "1px solid #f59e0b",
-            borderRadius: 10,
-            padding: "10px 16px",
-            background: "linear-gradient(135deg, rgba(245,158,11,0.5), rgba(239,68,68,0.45))",
-            color: "#fff7ed"
-          }}
-        >
-          Play again
-        </button>
+      {status === "gameover" && (
+        <div className="overlay" onClick={() => {}}>
+          <div className="modal">
+            <div style={{ fontSize: "2.5rem", marginBottom: 8 }}>
+              {gameOverReason.startsWith("Wrong") ? "X" : "O"}
+            </div>
+            <h2 style={{ margin: "0 0 4px", color: "#fef08a", fontSize: "1.4rem" }}>Game Over</h2>
+            <p style={{ margin: "0 0 16px", color: "#94a3b8", fontSize: "0.9rem" }}>{gameOverReason}</p>
+
+            <div style={{
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr",
+              gap: 12,
+              marginBottom: 20,
+              textAlign: "center"
+            }}>
+              <div style={{ background: "rgba(255,255,255,0.05)", borderRadius: 10, padding: "12px 8px" }}>
+                <div style={{ fontSize: "1.5rem", fontWeight: 700, color: "#fef08a" }}>{score}</div>
+                <div style={{ fontSize: "0.75rem", color: "#94a3b8" }}>Score</div>
+              </div>
+              <div style={{ background: "rgba(255,255,255,0.05)", borderRadius: 10, padding: "12px 8px" }}>
+                <div style={{ fontSize: "1.5rem", fontWeight: 700, color: "#fef08a" }}>{streak}</div>
+                <div style={{ fontSize: "0.75rem", color: "#94a3b8" }}>Streak</div>
+              </div>
+              <div style={{ background: "rgba(255,255,255,0.05)", borderRadius: 10, padding: "12px 8px" }}>
+                <div style={{ fontSize: "1.5rem", fontWeight: 700, color: "#a78bfa" }}>{profile.bestScore}</div>
+                <div style={{ fontSize: "0.75rem", color: "#94a3b8" }}>Best Score</div>
+              </div>
+              <div style={{ background: "rgba(255,255,255,0.05)", borderRadius: 10, padding: "12px 8px" }}>
+                <div style={{ fontSize: "1.5rem", fontWeight: 700, color: "#a78bfa" }}>{profile.bestStreak}</div>
+                <div style={{ fontSize: "0.75rem", color: "#94a3b8" }}>Best Streak</div>
+              </div>
+            </div>
+
+            <button
+              onClick={() => selectedCategory && startRound(selectedCategory, true)}
+              style={{
+                width: "100%",
+                border: "none",
+                borderRadius: 10,
+                padding: "12px 20px",
+                fontSize: "1rem",
+                fontWeight: 600,
+                background: "linear-gradient(135deg, #f59e0b, #ef4444)",
+                color: "#fff",
+                cursor: "pointer"
+              }}
+            >
+              Play Again
+            </button>
+            <button
+              onClick={() => { setStatus("idle"); setQuestion(null); setSelectedCategory(null); setScore(0); setStreak(0); }}
+              style={{
+                width: "100%",
+                border: "1px solid rgba(148,163,184,0.3)",
+                borderRadius: 10,
+                padding: "10px 20px",
+                marginTop: 8,
+                fontSize: "0.85rem",
+                background: "transparent",
+                color: "#94a3b8",
+                cursor: "pointer"
+              }}
+            >
+              Change Category
+            </button>
+          </div>
+        </div>
       )}
     </main>
   );
