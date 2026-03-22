@@ -40,6 +40,7 @@ const translations: Record<string, Record<Lang, string>> = {
   food: { en: "Food", he: "אוכל" },
   objects: { en: "Objects", he: "חפצים" },
   noBestYet: { en: "No high score yet", he: "אין שיא עדיין" },
+  oneLifeLeft: { en: "1 life left!", he: "נשאר לך חיים אחד!" },
 
   // Countries
   "Japan": { en: "Japan", he: "יפן" },

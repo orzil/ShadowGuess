@@ -42,6 +42,8 @@ export default function GameBoard() {
   const [status, setStatus] = useState<"idle" | "playing" | "gameover">("idle");
   const [usedQuestionIds, setUsedQuestionIds] = useState<string[]>([]);
   const [gameOverReason, setGameOverReason] = useState("");
+  const [strikes, setStrikes] = useState(0);
+  const [strikeFlash, setStrikeFlash] = useState("");
 
   const isHe = lang === "he";
 
@@ -106,6 +108,8 @@ export default function GameBoard() {
     setGameOverReason("");
     setScore(0);
     setStreak(0);
+    setStrikes(0);
+    setStrikeFlash("");
     setUsedQuestionIds([q.id]);
   };
 
@@ -113,6 +117,20 @@ export default function GameBoard() {
     if (!question || status !== "playing") return;
 
     if (choice !== question.answer) {
+      if (strikes < 1) {
+        // First strike — warn and move to next question
+        setStrikes(1);
+        setStrikeFlash(`${t("wrong", lang)} ${t(question.answer, lang)}. ${t("oneLifeLeft", lang)}`);
+        setStreak(0);
+        setTimeout(() => setStrikeFlash(""), 2500);
+        if (selectedCategory) {
+          const newUsed = [...usedQuestionIds, question.id];
+          setUsedQuestionIds(newUsed);
+          nextQuestion(selectedCategory, newUsed);
+        }
+        return;
+      }
+      // Second strike — game over
       setStatus("gameover");
       setGameOverReason(`${t("wrong", lang)} ${t(question.answer, lang)}`);
       setProfile((prev) => {
@@ -269,6 +287,9 @@ export default function GameBoard() {
           }}>
             <span style={{ color: "var(--gold)" }}>{t("score", lang)}: <strong>{score}</strong></span>
             <span style={{ color: "#22d3ee" }}>{t("streak", lang)}: <strong>{streak}</strong></span>
+            <span style={{ color: strikes > 0 ? "#ef4444" : "#22c55e" }}>
+              {strikes === 0 ? "❤️❤️" : "❤️🖤"}
+            </span>
             <span style={{ color: "var(--accent)" }}>Lv <strong>{profile.level}</strong></span>
           </div>
 
@@ -283,6 +304,24 @@ export default function GameBoard() {
                   color: timerColor
                 }}
               />
+            </div>
+          )}
+
+          {/* Strike flash */}
+          {strikeFlash && (
+            <div style={{
+              background: "rgba(239, 68, 68, 0.15)",
+              border: "1px solid rgba(239, 68, 68, 0.4)",
+              borderRadius: 10,
+              padding: "8px 12px",
+              marginBottom: 10,
+              textAlign: "center",
+              fontSize: "0.82rem",
+              fontWeight: 600,
+              color: "#fca5a5",
+              animation: "fadeIn 0.3s ease-out"
+            }}>
+              {strikeFlash}
             </div>
           )}
 
@@ -386,7 +425,7 @@ export default function GameBoard() {
             </button>
             <button
               className="btn-ghost"
-              onClick={() => { setStatus("idle"); setQuestion(null); setSelectedCategory(null); setScore(0); setStreak(0); }}
+              onClick={() => { setStatus("idle"); setQuestion(null); setSelectedCategory(null); setScore(0); setStreak(0); setStrikes(0); setStrikeFlash(""); }}
               style={{ marginTop: 8 }}
             >
               {t("changeCategory", lang)}
