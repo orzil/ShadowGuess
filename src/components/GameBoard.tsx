@@ -161,7 +161,7 @@ export default function GameBoard() {
     <main style={{ maxWidth: 520, margin: "0 auto", padding: "16px 14px 20px", direction: isHe ? "rtl" : "ltr" }}>
       {/* Header */}
       <header style={{ textAlign: "center", marginBottom: 16, position: "relative" }}>
-        <button className="lang-toggle" onClick={toggleLang} style={{ position: "absolute", top: 4, [isHe ? "left" : "right"]: 0 }}>
+        <button className="lang-toggle" onClick={toggleLang} style={{ position: "absolute", top: 4, [isHe ? "left" : "right"]: 0, zIndex: 10 }}>
           {isHe ? "EN" : "HE"}
         </button>
 
