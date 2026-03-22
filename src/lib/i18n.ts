@@ -17,8 +17,8 @@ const translations: Record<string, Record<Lang, string>> = {
   // UI
   title: { en: "ShadowGuess", he: "ShadowGuess" },
   subtitle: {
-    en: "15 seconds to guess as many silhouettes as you can.\nPick your best category and beat your high score!",
-    he: "15 שניות לנחש כמה שיותר צלליות.\nבחרו את הקטגוריה הטובה ביותר שלכם ושברו את השיא!"
+    en: "20 seconds to guess as many silhouettes as you can.\nPick your best category and beat your high score!",
+    he: "20 שניות לנחש כמה שיותר צלליות.\nבחרו את הקטגוריה הטובה ביותר שלכם ושברו את השיא!"
   },
   pickCategory: { en: "Choose a category and start guessing!", he: "בחרו קטגוריה והתחילו לנחש!" },
   bestScore: { en: "Best Score", he: "שיא" },

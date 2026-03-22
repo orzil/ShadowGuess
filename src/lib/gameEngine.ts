@@ -5,7 +5,7 @@ import landmarks from "@/data/landmarks.json";
 import food from "@/data/food.json";
 import type { CategoryId, ChoiceQuestion } from "@/types/game";
 
-const ROUND_SECONDS = 15;
+const ROUND_SECONDS = 20;
 
 const byCategory: Record<CategoryId, ChoiceQuestion[]> = {
   countries: countries as ChoiceQuestion[],
