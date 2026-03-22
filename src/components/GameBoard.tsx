@@ -114,7 +114,7 @@ export default function GameBoard() {
 
     if (choice !== question.answer) {
       setStatus("gameover");
-      setGameOverReason(`${t("wrong", lang)} ${question.answer}`);
+      setGameOverReason(`${t("wrong", lang)} ${t(question.answer, lang)}`);
       setProfile((prev) => {
         const isBest = score > prev.bestScore;
         return {
@@ -332,7 +332,7 @@ export default function GameBoard() {
                     className="choice-btn"
                     onClick={() => handleChoice(choice)}
                   >
-                    {choice}
+                    {t(choice, lang)}
                   </button>
                 ))}
               </div>
