@@ -3,6 +3,7 @@ import celebrities from "@/data/celebrities.json";
 import animals from "@/data/animals.json";
 import landmarks from "@/data/landmarks.json";
 import food from "@/data/food.json";
+import football from "@/data/football.json";
 import type { CategoryId, ChoiceQuestion } from "@/types/game";
 
 const ROUND_SECONDS = 20;
@@ -12,7 +13,8 @@ const byCategory: Record<CategoryId, ChoiceQuestion[]> = {
   celebrities: celebrities as ChoiceQuestion[],
   animals: animals as ChoiceQuestion[],
   landmarks: landmarks as ChoiceQuestion[],
-  food: food as ChoiceQuestion[]
+  food: food as ChoiceQuestion[],
+  football: football as ChoiceQuestion[]
 };
 
 export function getRoundSeconds(): number {

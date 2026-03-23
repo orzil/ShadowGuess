@@ -25,6 +25,7 @@ const categoryCards: ActiveCategoryCard[] = [
   { id: "animals", labelKey: "animals" },
   { id: "landmarks", labelKey: "landmarks" },
   { id: "food", labelKey: "food" },
+  { id: "football", labelKey: "football" },
   { id: "objects", labelKey: "objects", comingSoon: true }
 ];
 

@@ -1,4 +1,4 @@
-export type CategoryId = "countries" | "celebrities" | "animals" | "landmarks" | "food";
+export type CategoryId = "countries" | "celebrities" | "animals" | "landmarks" | "food" | "football";
 
 export type FutureCategoryId = "objects";
 

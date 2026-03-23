@@ -1,0 +1,512 @@
+[
+  {
+    "id": "football-pele",
+    "category": "football",
+    "answer": "Pele",
+    "options": [
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi",
+      "Cristiano Ronaldo"
+    ],
+    "silhouetteImage": "/assets/football/football-pele-silhouette.png",
+    "originalImage": "/assets/football/football-pele-original.png",
+    "hintMask": "/assets/football/football-pele-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pel\u00e9",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-maradona",
+    "category": "football",
+    "answer": "Diego Maradona",
+    "options": [
+      "Diego Maradona",
+      "Pele",
+      "Lionel Messi",
+      "Cristiano Ronaldo"
+    ],
+    "silhouetteImage": "/assets/football/football-maradona-silhouette.png",
+    "originalImage": "/assets/football/football-maradona-original.png",
+    "hintMask": "/assets/football/football-maradona-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Diego_Maradona",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-messi",
+    "category": "football",
+    "answer": "Lionel Messi",
+    "options": [
+      "Lionel Messi",
+      "Pele",
+      "Diego Maradona",
+      "Cristiano Ronaldo"
+    ],
+    "silhouetteImage": "/assets/football/football-messi-silhouette.png",
+    "originalImage": "/assets/football/football-messi-original.png",
+    "hintMask": "/assets/football/football-messi-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lionel_Messi",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-ronaldo",
+    "category": "football",
+    "answer": "Cristiano Ronaldo",
+    "options": [
+      "Cristiano Ronaldo",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-ronaldo-silhouette.png",
+    "originalImage": "/assets/football/football-ronaldo-original.png",
+    "hintMask": "/assets/football/football-ronaldo-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-zidane",
+    "category": "football",
+    "answer": "Zinedine Zidane",
+    "options": [
+      "Zinedine Zidane",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-zidane-silhouette.png",
+    "originalImage": "/assets/football/football-zidane-original.png",
+    "hintMask": "/assets/football/football-zidane-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Zinedine_Zidane",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-ronaldinho",
+    "category": "football",
+    "answer": "Ronaldinho",
+    "options": [
+      "Ronaldinho",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-ronaldinho-silhouette.png",
+    "originalImage": "/assets/football/football-ronaldinho-original.png",
+    "hintMask": "/assets/football/football-ronaldinho-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ronaldinho",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-beckham",
+    "category": "football",
+    "answer": "David Beckham",
+    "options": [
+      "David Beckham",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-beckham-silhouette.png",
+    "originalImage": "/assets/football/football-beckham-original.png",
+    "hintMask": "/assets/football/football-beckham-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/David_Beckham",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-henry",
+    "category": "football",
+    "answer": "Thierry Henry",
+    "options": [
+      "Thierry Henry",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-henry-silhouette.png",
+    "originalImage": "/assets/football/football-henry-original.png",
+    "hintMask": "/assets/football/football-henry-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Thierry_Henry",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-ronaldo-nazario",
+    "category": "football",
+    "answer": "Ronaldo Nazario",
+    "options": [
+      "Ronaldo Nazario",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-ronaldo-nazario-silhouette.png",
+    "originalImage": "/assets/football/football-ronaldo-nazario-original.png",
+    "hintMask": "/assets/football/football-ronaldo-nazario-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer)",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-neymar",
+    "category": "football",
+    "answer": "Neymar",
+    "options": [
+      "Neymar",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-neymar-silhouette.png",
+    "originalImage": "/assets/football/football-neymar-original.png",
+    "hintMask": "/assets/football/football-neymar-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Neymar",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-mbappe",
+    "category": "football",
+    "answer": "Kylian Mbappe",
+    "options": [
+      "Kylian Mbappe",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-mbappe-silhouette.png",
+    "originalImage": "/assets/football/football-mbappe-original.png",
+    "hintMask": "/assets/football/football-mbappe-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kylian_Mbapp\u00e9",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-haaland",
+    "category": "football",
+    "answer": "Erling Haaland",
+    "options": [
+      "Erling Haaland",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-haaland-silhouette.png",
+    "originalImage": "/assets/football/football-haaland-original.png",
+    "hintMask": "/assets/football/football-haaland-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Erling_Haaland",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-ibrahimovic",
+    "category": "football",
+    "answer": "Zlatan Ibrahimovic",
+    "options": [
+      "Zlatan Ibrahimovic",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-ibrahimovic-silhouette.png",
+    "originalImage": "/assets/football/football-ibrahimovic-original.png",
+    "hintMask": "/assets/football/football-ibrahimovic-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Zlatan_Ibrahimovi\u0107",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-rooney",
+    "category": "football",
+    "answer": "Wayne Rooney",
+    "options": [
+      "Wayne Rooney",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-rooney-silhouette.png",
+    "originalImage": "/assets/football/football-rooney-original.png",
+    "hintMask": "/assets/football/football-rooney-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Wayne_Rooney",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-gerrard",
+    "category": "football",
+    "answer": "Steven Gerrard",
+    "options": [
+      "Steven Gerrard",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-gerrard-silhouette.png",
+    "originalImage": "/assets/football/football-gerrard-original.png",
+    "hintMask": "/assets/football/football-gerrard-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Steven_Gerrard",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-beckenbauer",
+    "category": "football",
+    "answer": "Franz Beckenbauer",
+    "options": [
+      "Franz Beckenbauer",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-beckenbauer-silhouette.png",
+    "originalImage": "/assets/football/football-beckenbauer-original.png",
+    "hintMask": "/assets/football/football-beckenbauer-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Franz_Beckenbauer",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-cruyff",
+    "category": "football",
+    "answer": "Johan Cruyff",
+    "options": [
+      "Johan Cruyff",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-cruyff-silhouette.png",
+    "originalImage": "/assets/football/football-cruyff-original.png",
+    "hintMask": "/assets/football/football-cruyff-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Johan_Cruyff",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-platini",
+    "category": "football",
+    "answer": "Michel Platini",
+    "options": [
+      "Michel Platini",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-platini-silhouette.png",
+    "originalImage": "/assets/football/football-platini-original.png",
+    "hintMask": "/assets/football/football-platini-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Michel_Platini",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-van-basten",
+    "category": "football",
+    "answer": "Marco van Basten",
+    "options": [
+      "Marco van Basten",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-van-basten-silhouette.png",
+    "originalImage": "/assets/football/football-van-basten-original.png",
+    "hintMask": "/assets/football/football-van-basten-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Marco_van_Basten",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-best",
+    "category": "football",
+    "answer": "George Best",
+    "options": [
+      "George Best",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-best-silhouette.png",
+    "originalImage": "/assets/football/football-best-original.png",
+    "hintMask": "/assets/football/football-best-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/George_Best",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-baggio",
+    "category": "football",
+    "answer": "Roberto Baggio",
+    "options": [
+      "Roberto Baggio",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-baggio-silhouette.png",
+    "originalImage": "/assets/football/football-baggio-original.png",
+    "hintMask": "/assets/football/football-baggio-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Roberto_Baggio",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-iniesta",
+    "category": "football",
+    "answer": "Andres Iniesta",
+    "options": [
+      "Andres Iniesta",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-iniesta-silhouette.png",
+    "originalImage": "/assets/football/football-iniesta-original.png",
+    "hintMask": "/assets/football/football-iniesta-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Andr\u00e9s_Iniesta",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-muller",
+    "category": "football",
+    "answer": "Gerd Muller",
+    "options": [
+      "Gerd Muller",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-muller-silhouette.png",
+    "originalImage": "/assets/football/football-muller-original.png",
+    "hintMask": "/assets/football/football-muller-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gerd_M\u00fcller",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-yashin",
+    "category": "football",
+    "answer": "Lev Yashin",
+    "options": [
+      "Lev Yashin",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-yashin-silhouette.png",
+    "originalImage": "/assets/football/football-yashin-original.png",
+    "hintMask": "/assets/football/football-yashin-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lev_Yashin",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-stoichkov",
+    "category": "football",
+    "answer": "Hristo Stoichkov",
+    "options": [
+      "Hristo Stoichkov",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-stoichkov-silhouette.png",
+    "originalImage": "/assets/football/football-stoichkov-original.png",
+    "hintMask": "/assets/football/football-stoichkov-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hristo_Stoichkov",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-hagi",
+    "category": "football",
+    "answer": "Gheorghe Hagi",
+    "options": [
+      "Gheorghe Hagi",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-hagi-silhouette.png",
+    "originalImage": "/assets/football/football-hagi-original.png",
+    "hintMask": "/assets/football/football-hagi-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gheorghe_Hagi",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-okocha",
+    "category": "football",
+    "answer": "Jay-Jay Okocha",
+    "options": [
+      "Jay-Jay Okocha",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-okocha-silhouette.png",
+    "originalImage": "/assets/football/football-okocha-original.png",
+    "hintMask": "/assets/football/football-okocha-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jay-Jay_Okocha",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-suker",
+    "category": "football",
+    "answer": "Davor Suker",
+    "options": [
+      "Davor Suker",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-suker-silhouette.png",
+    "originalImage": "/assets/football/football-suker-original.png",
+    "hintMask": "/assets/football/football-suker-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Davor_\u0160uker",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-socrates",
+    "category": "football",
+    "answer": "Socrates",
+    "options": [
+      "Socrates",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-socrates-silhouette.png",
+    "originalImage": "/assets/football/football-socrates-original.png",
+    "hintMask": "/assets/football/football-socrates-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/S\u00f3crates",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  },
+  {
+    "id": "football-maldini",
+    "category": "football",
+    "answer": "Paolo Maldini",
+    "options": [
+      "Paolo Maldini",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "silhouetteImage": "/assets/football/football-maldini-silhouette.png",
+    "originalImage": "/assets/football/football-maldini-original.png",
+    "hintMask": "/assets/football/football-maldini-mask.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Paolo_Maldini",
+    "license": "CC BY-SA",
+    "author": "Wikimedia Commons"
+  }
+]
